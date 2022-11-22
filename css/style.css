@@ -140,10 +140,10 @@ h3 {
 
 #contato{
     position: absolute;
-    top: 170%;
-    margin-top: -220px;
+    top: 140%;
+    /* margin-top: -220px; */
     left: 25px;
     font-size: 35px;
-    background-color: aquamarine;
+    background-color: rgb(147, 35, 188);
 }
 
