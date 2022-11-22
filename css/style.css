@@ -124,7 +124,7 @@ h3 {
     width: 100px;
     position: absolute;
     left: 50%;
-    top: 155%;
+    top: 150%;
 
 }
 
@@ -132,13 +132,13 @@ h3 {
     width: 100px;
     position: absolute;
     left: 30%;
-    top: 155%
+    top: 150%
 
 }
 
 #contato{
     position: absolute;
-    top: 150%;
+    top: 145%;
     margin-top: -100px;
     left: 25px;
     font-size: 35px;
