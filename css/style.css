@@ -126,7 +126,7 @@ h3 {
     width: 100px;
     position: absolute;
     left: 60%;
-    top: 160%;
+    top: 155%;
 
 }
 
@@ -134,15 +134,13 @@ h3 {
     width: 100px;
     position: absolute;
     left: 20%;
-    top: 160%
+    top: 155%
 
 }
 
 #contato{
     position: absolute;
-    top: 145%;
-    /* margin-top: -220px; */
+    top: 140%;
     left: 25px;
     font-size: 35px;
-    background-color: rgb(134, 134, 134);
 }
