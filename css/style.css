@@ -123,8 +123,8 @@ h3 {
 .github{
     width: 100px;
     position: absolute;
-    left: 60%;
-    top: 145%;
+    left: 50%;
+    top: 155%;
 
 }
 
@@ -132,13 +132,14 @@ h3 {
     width: 100px;
     position: absolute;
     left: 30%;
-    top: 145%
+    top: 155%
 
 }
 
 #contato{
     position: absolute;
-    top: 130%;
+    top: 150%;
+    margin-top: -100px;
     left: 25px;
     font-size: 35px;
 }
