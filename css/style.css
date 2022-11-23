@@ -1,146 +1,108 @@
 *{
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px; 
 }
 
-
-html, body{
-    background-color: #063647;
-   font-size: 16px;
-   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-   color: #dfdfdf;
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 16px;
 }
 
-section{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+nav{
+    position: fixed;
 }
 
-.title {
+footer{
     text-align: center;
-	width: 60%;
-	margin: 0 auto;
-    position: absolute;
-    top: 41%;
-    left: 19%;
-
 }
-
-h3 {
-    position: absolute;
-    top: 67%;
-    left: 25px;
-    font-size: 35px;
-}
-
-.project {
-    text-align: justify;
-	width: 30%;
-	margin: 0 auto;
-    position: absolute;
-    top: 103%;
-    left: 15%;
-    margin-left: -5px;
-    display: inline-block;
-
-}
-
-.project2 {
-    text-align: justify;
-	width: 30%;
-	margin: 0 auto;
-    position: absolute;
-    top: 103%;
-    left: 55%;
-    margin-left: -5px;
-    display: inline-block;
-
-}
-
-
 
 .nav-item{
-    align-items: center;
-    padding: 8px 12px;
-    color: #fff;
-    text-decoration: none;
-    top: 15px;
-    left: 15px;
-    font-size: 1rem;
     position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 10px;
     
 }
 
-.foto{
-    border-radius: 50%;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -110px;
-    margin-top: -300px;
-}
-
-.secao1{
+.principal{
     background-color: #063647;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.image_title{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.text_title{
 
 }
 
+.header{
+    text-align: center;
+}
 
-.secao2{
+.tittle{
+    text-align: center;
+    height: 400px;
+     
+}
+
+.main{
     background-color: #052D3D;
 }
 
-.secao3 {
-	background-color: #0E282E;
+.main_title{
+    padding-top: 40px;
+    text-align: center;
+}
 
+.project{
+    text-align: center;
+    
+}
+
+.img_project{
+    padding-top: 5%;
+    padding-bottom: 1%;
+    width: 40%;
+    
+}
+
+.text_project{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 23%;
+    width: 55%;
+    align-items: center;
+}
+
+.main_footer{
+    background-color: #0E282E;
+}
+
+.image_footer{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    margin-top: 3%;
+    margin-bottom: 2%;
 
 }
 
-.projeto {
-
-    height: 200px;
-    position: absolute;
-    left: 18%;
-    top: 113%;
-    margin-left: -10px;
-    margin-top: -300px;
-    display: inline-block;
-    width: 25%;
+.image_footer1{
+    width: 50px;
+    border-radius: 100%;
 }
 
-.projeto2 {
-
-    height: 200px;
-    position: absolute;
-    left: 58%;
-    top: 113%;
-    margin-left: -10px;
-    margin-top: -300px;
-    display: inline-block;
-    width: 25%;
+.image_footer2{
+  width: 50px;
+  border-radius: 100%;
 }
 
-.github{
-    width: 100px;
-    position: absolute;
-    left: 60%;
-    top: 150%;
 
-}
-
-.linkedin{
-    width: 100px;
-    position: absolute;
-    left: 20%;
-    top: 150%
-
-}
-
-#contato{
-    position: absolute;
-    top: 140%;
-    left: 25px;
-    font-size: 35px;
-}
